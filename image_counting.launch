@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- Launch the Image Publisher Node -->
+  <node name="image_publisher_node" pkg="navstack" type="image_publisher.py" output="screen" />
+
+  <!-- Launch the Image Counter Node -->
+  <node name="image_counter_node" pkg="navstack" type="image_counter.py" output="screen" />
+
+  <!-- Launch the Image Path Saver Node -->
+  <node name="image_path_saver_node" pkg="navstack" type="image_path_saver.py" output="screen" />
+  
+</launch>
+

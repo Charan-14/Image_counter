@@ -7,4 +7,5 @@ The Repo consists of:
 - image_counting_demo.mkv - demo video to showcase the working of the project
 
 To reset the counter the following msg is published through the command line interface
+
 `rostopic pub /reset std_msgs/Empty "{}"`
